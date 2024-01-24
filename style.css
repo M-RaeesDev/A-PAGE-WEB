@@ -1,0 +1,344 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* main section  */
+
+.main{
+    border: 2px solid black;
+    width: 100%;
+    height: 600px;
+    background-image: url(Images/Cover.png);
+    opacity: 1;
+}
+
+/* header logo and buttons  */
+.header{
+    width: 100%;
+    height: 130px;
+    display: flex;
+}
+.logo>img{
+    width: 280px;
+    margin:30px;
+}
+.phone {
+    color: white;
+    font-size: 34px;
+    margin-top: 34px;
+    margin-left: 328px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    font-stretch:extra-condensed;
+    word-spacing: -11px;
+}
+.phone .orangedot{
+    color: orangered;
+    
+/* client buttton */
+
+}
+.client-login {
+    border: 2px solid #4DA6FF;
+    font-size: 17px;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: 750;
+    text-align: center;
+    margin: 36px 7px;
+    height: 20px;
+    width: 130px;
+    padding: 9px 9px;
+    font-family: sans-serif;
+    border-radius: 15px;
+}
+.client-login:hover{
+    background-color: #4DA6FF;
+}
+
+/* contact button */
+
+.contact-button{
+    border: 2px solid #F75800;
+    font-size: 17px;
+    font-weight: 750;
+    text-align: center;
+    color: white;
+    margin: 36px 7px;
+    height: 20px;
+    width: 130px;
+    padding: 9px 9px;
+    font-family: sans-serif;
+    border-radius: 15px;
+
+}
+.contact-button:hover{
+    background-color: #F75800;
+}
+/* dropdown list */
+.menu-button{
+    border: 2px solid white;
+    background-color: white;
+    color:  black;
+    content: "";
+    margin: 34px 6px;
+    width: 45px;
+    height: 45px;  
+}
+.menu-button div{
+    width: 28px;
+    height: 4px;
+    background-color: black;
+    margin: 5px 6px; 
+}
+ /*banner text */
+#bannerText{
+    color: rgb(164, 162, 162);
+    text-align: center;
+    width: 90%;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 20px 30px;
+    font-family: monospace;
+ }
+ #bannerText h2{
+    color: white;
+    font-size: 110px;
+    line-height: 120px;
+    font-weight: 20px;
+    margin-top: 75px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+.text{
+    margin:1px  232px;
+}
+
+.get-started-buttton{
+    border: 2px solid #F75800;
+    font-size: 19px;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: 750;
+    text-align: center;
+    padding: 12px 22px;
+    font-family: sans-serif;
+    border-radius: 15px;
+
+ }
+ .get-started-buttton:hover{
+    background-color: #F75800;
+ }
+
+ /* Text section */
+ .section-one{
+    width: 100%;
+    height: 560px;
+ }
+.text-section{
+ 
+    width: 100%;
+    display: flex;
+
+}
+.cpa-ban img{
+    width: 252px;
+    margin-top:70px;
+    margin-left: 89%;
+}
+.right-text{
+    margin-top: 79px;
+    margin-left: 21%;
+    width: 51%;
+    border-left: 5px solid #F75800;
+    height: 77px;
+    padding-left: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+.centre-text{
+    text-align: center;
+    width: 47%;
+    margin-left: 27%;
+    margin-top: 41px;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Boxes section  */
+.Box{
+    border: 1px solid rgb(153, 153, 153);
+    width: 230px;
+    height: 230px;
+    float: left;
+    margin: 20px 100px;
+    
+}
+#box1 img{
+    width: 150px;
+    height: 150px;
+    padding: 22px 30px;   
+}
+#box2 img{
+    width: 150px;
+    height: 150px;
+    padding: 22px 30px;   
+}
+#box3 img{
+    width: 150px;
+    height: 150px;
+    padding: 22px 30px;   
+}
+.Box h3{
+    text-align:center;
+    margin-bottom:20px;
+    font-family: sans-serif;
+}
+.Box:hover{
+    color: blue;
+    border-color: blue;
+    box-shadow: -1px 3px 10px 0 rgba(1,1,1,1);
+}
+.section-pic{
+    border: 2px solid rgb(229, 229, 229);
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.left-pics{
+    width:50%;
+    height: 400px;
+    background-image: url(Images/lady.jpg);
+    background-size: cover;
+    
+}
+.pics-text{
+    background-color: rgb(229, 229, 229);
+    width: 50%;
+    font-family:'Montserrat', sans-serif; 
+}
+
+.pics-text h1{
+    color: black;
+    font-family: monospace;
+    margin-left: 78px;
+    margin-top: 30px;
+    font-size: 40px;
+}
+.pics-text p{
+     margin:17px 133px 16px 85px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    color: rgb(72, 72, 72);
+}
+/* Quote section */
+.para{
+    width: 100%;
+    height: 500px;
+}
+.parapic img{
+    width: 90px;
+    margin: 71px 449px 31px 45%
+}
+.quote{
+    text-align: center;
+   padding: 17px 215px;
+   font-size: 17px;
+   
+}
+.quote p{
+    color: rgb(109, 109, 109);
+    font-family:  sans-serif; 
+}
+.quote h1{
+    font-family:Montserrat, sans-serif; 
+    font-size: 40px; 
+    padding-bottom: 27px;
+}
+
+/* Contact section */
+
+.contact{
+    border: 2px solid black;
+    width: 100%;
+    height: 450px;
+    background: #0f4a86;
+    color: #ffffff;
+    font-size: 21px;
+    line-height: 30px;
+    display: flex;
+  
+}
+.left-div{
+    height: 30px;
+    width: 50%;
+    height: 450px;   
+}
+
+.left-div img{
+    width: 260px;
+    height: 229px;
+    float: right;
+    padding-top: 117px;
+    margin-right: 44px;
+}
+ .nav-footer{
+    text-align: center;
+    margin-left: -295px;
+    margin-right: 20px;
+    margin-top: 350px;
+
+ } 
+ .nav-footer ul{
+    display: block;
+    margin-top:15px;
+    font-size: 18px;
+    margin: 2px;
+ }
+ .nav-footer ul li{
+    display: inline;
+    margin: 4px;
+ }
+ .nav-footer ul li:hover{
+    color: lightseagreen;
+
+ } 
+.right-div{
+    border-left: 2px solid black;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 20px; 
+    margin-left: 30px;
+}
+.right-div h3{
+    font-size: 43px;
+    line-height: 48px;
+    font-weight: 300;
+    margin-bottom: 15px;
+    margin-left: 35px;
+    font-family:'Montserrat', sans-serif;  
+}
+.right-div p{
+    margin-left: 35px;
+    font-family:sans-serif;  ;
+}
+.orangeText{
+    margin-left: 35px;
+    color: #F75800;
+}
+.right-div  a{
+    text-decoration: none;
+    color: white;
+}
+.contact-btn{
+    border: 1px solid #F75800;
+    font-size: 19px;
+    background-color: #F75800;
+    color: #ffffff;
+    font-weight: 500px;
+    text-align: center;
+    padding: 12px 22px;
+    font-family: sans-serif;
+    margin-left: 30px;
+    border-radius: 15px;
+}
+.contact-btn:hover{
+    background-color: transparent;
+}
